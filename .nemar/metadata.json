@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The time-course of feature-based attention effects dissociated from temporal expectation and target-related processes",
+  "description": "This dataset comprises human electroencephalography recordings from 20 participants performing a visual attention task involving rapid sequences of overlaid oriented gratings. Participants detected target gratings while manipulating both attention (cued by color) and temporal expectation (predictable vs. unpredictable stimulus onset timing). The study dissociates feature-based attention effects from temporal expectation and target-related decision processes, providing insights into the temporal dynamics of selective attention.",
+  "methods_description": "Human electroencephalography recordings were acquired from 20 participants viewing rapid sequences of overlaid oriented grating pairs. Participants performed a target detection task where one grating was attended (cued by color) and the other ignored. Stimulus onset timing was manipulated to be either predictable or unpredictable. Each experimental session lasted approximately 1 hour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -41,12 +43,27 @@
       ]
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004043.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "temporal expectation"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "feature-based attention"
+    },
+    {
+      "term": "electroencephalography"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.17605/OSF.IO/5B8K6",
       "identifier_type": "DOI",
@@ -66,6 +83,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004043",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004043.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -90,12 +112,12 @@
       "award_number": "SUAG/052/G101400"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "32.7 GB (141 files)"
   ],
   "formats": [
     ".csv",
@@ -107,46 +129,8 @@
     ".set",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises human electroencephalography recordings from 20 participants performing a visual attention task involving rapid sequences of overlaid oriented gratings. Participants detected target gratings while attention and temporal expectation were systematically manipulated through color cues and stimulus onset timing variations. The study dissociates feature-based attention effects from temporal expectation and target-related decision processes.",
-  "methods_description": "Human EEG recordings were collected from 20 participants viewing rapid sequences of overlaid oriented grating pairs. Participants performed a target detection task where one grating was attended (cued by color) and the other ignored. Stimulus onset timing was either predictable or unpredictable to manipulate temporal expectation. Each experimental session lasted approximately 1 hour.",
-  "keywords": [
-    {
-      "term": "attention"
-    },
-    {
-      "term": "temporal expectation"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "feature-based attention"
-    },
-    {
-      "term": "target detection"
-    },
-    {
-      "term": "visual search"
-    },
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "oriented gratings"
-    },
-    {
-      "term": "visual neuroscience"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    }
-  ],
-  "source_hash": "bfd90771e34bfac2bc325f7787c6f4c08f2087c5921c4bdbb3e22a4d8044a8c9"
+  "source_hash": "7ba628bdbf018325d77812d7366b2485b9710f9f5db8654dae8e42a57f8eb0ec"
 }
