@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004043-blue)](https://doi.org/10.82901/nemar.on004043)
+
 Experiment Details
 
 Human electroencephalography recordings from 20 participants. Participants viewed rapid sequences of overlaid oriented grating pairs while detecting a “target” grating of a particular orientation. We manipulated attention, one grating was attended and the other ignored (cued by colour), and temporal expectation, with stimulus onset timing either predictable or not.
