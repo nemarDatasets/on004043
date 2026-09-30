@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The time-course of feature-based attention effects dissociated from temporal expectation and target-related processes",
-  "description": "This dataset comprises human electroencephalography recordings from 20 participants performing a visual attention task involving rapid sequences of overlaid oriented gratings. Participants detected target gratings while manipulating both attention (cued by color) and temporal expectation (predictable vs. unpredictable stimulus onset timing). The study dissociates feature-based attention effects from temporal expectation and target-related decision processes, providing insights into the temporal dynamics of selective attention.",
-  "methods_description": "Human electroencephalography recordings were acquired from 20 participants viewing rapid sequences of overlaid oriented grating pairs. Participants performed a target detection task where one grating was attended (cued by color) and the other ignored. Stimulus onset timing was manipulated to be either predictable or unpredictable. Each experimental session lasted approximately 1 hour.",
+  "description": "Human EEG recordings from 20 participants viewing rapid sequences of overlaid oriented grating pairs while detecting a target grating of a specific orientation. Feature-based attention was manipulated by cueing one of two gratings by colour, and temporal expectation was manipulated by making stimulus onset timing predictable or unpredictable. The dataset supports investigation of the time-course of attention effects dissociated from temporal expectation and target-related processes.",
+  "methods_description": "EEG was recorded from 20 participants during a session of about 1 hour. Participants viewed rapid sequences of overlaid oriented gratings, attended one colour-cued grating while ignoring the other, and detected a target orientation. Stimulus onset timing was either predictable or unpredictable.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -48,19 +48,19 @@
       "term": "EEG"
     },
     {
-      "term": "attention"
+      "term": "feature-based attention"
     },
     {
       "term": "temporal expectation"
     },
     {
-      "term": "visual perception"
+      "term": "orientation gratings"
     },
     {
-      "term": "feature-based attention"
+      "term": "Attention"
     },
     {
-      "term": "electroencephalography"
+      "term": "Electroencephalography"
     }
   ],
   "related_identifiers": [
@@ -72,7 +72,7 @@
     {
       "identifier": "10.1101/2021.05.24.445376",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004043",
@@ -80,14 +80,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004043",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004043.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004043",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -117,7 +117,7 @@
     "eeg"
   ],
   "sizes": [
-    "32.7 GB (141 files)"
+    "30.41 GB (141 files)"
   ],
   "formats": [
     ".csv",
